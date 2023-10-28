@@ -1,0 +1,5 @@
+1 - Right click "_Install Floppa Cursor.inf" and press install
+2 - Using windows search or the run dialog open "main.cpl"
+3 - Go to "Pointers"
+4 - Change the scheme to "Floppa Cursor"
+5 - Press "OK"

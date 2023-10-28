@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+floppa cursor.cur
+floppa help.cur
+floppa background.ani
+floppa wait.ani
+floppa beam.cur
+floppa forbidden.cur
+floppa NS.cur
+floppa EW.cur
+floppa NwSe.cur
+floppa NeSw.cur
+floppa move.cur
+floppa hand.cur
+floppa precise.cur
+floppa pen.cur
+floppa alt.cur
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Cursors\Floppa Cursor"
+SCHEME_NAME   = "Floppa Cursor"
+pointer       = "floppa cursor.cur"
+help          = "floppa help.cur"
+work          = "floppa background.ani"
+busy          = "floppa wait.ani"
+text          = "floppa beam.cur"
+unavailiable  = "floppa forbidden.cur"
+vert          = "floppa NS.cur"
+horz          = "floppa EW.cur"
+dgn1          = "floppa NwSe.cur"
+dgn2          = "floppa NeSw.cur"
+move          = "floppa move.cur"
+link          = "floppa hand.cur"
+cross         = "floppa precise.cur"
+hand          = "floppa pen.cur"
+alternate     = "floppa alt.cur"
